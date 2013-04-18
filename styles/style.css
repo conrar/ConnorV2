@@ -1,0 +1,379 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+
+a{text-decoration: none;
+	color:inherit;}
+.red{
+	color: #EE1C25;
+}
+body{
+	color: #222;
+}
+#red-stripe{
+	background-color:#EE1C25;
+	width: 100%;
+	height: 150px;
+	position:absolute;
+	z-index: -1;
+}
+#container{
+	width:980px;
+	margin: 0 auto;
+}
+#header{
+	height:150px;
+	overflow: hidden;
+}
+#header #title{
+	float:left;
+	width: 600px;
+}
+#header #title #logo {
+	font-size: 70px;
+	color: #fff;
+	text-shadow:0px 1px  #222,
+				0px 2px  #222,
+				0px 3px  #222,
+				0px 4px  #222,
+				0px 5px  #222,
+				0px 6px  #222,
+				0px 7px  #222,
+				0px 8px  #222,
+				0px 9px  #222,
+				0px 10px #222,
+				0px 11px #222,
+				0px 12px #222,
+				0px 13px #222,
+				0px 14px #222,
+				0px 15px #222;
+				/*0px 16px #222,
+				0px 17px #222,
+				0px 18px #222,
+				0px 19px #222,
+				0px 20px #222,
+				0px 21px #222,
+				0px 22px #222,
+				0px 23px #222,
+				0px 24px #222,
+				0px 25px #222,
+				0px 26px #222,
+				0px 27px #222,
+				0px 28px #222,
+				0px 29px #222,
+				0px 30px #222,
+				0px 31px #222,
+				0px 32px #222,
+				0px 33px #222,
+				0px 34px #222,
+				0px 35px #222,
+				0px 36px #222,
+				0px 37px #222,
+				0px 38px #222,
+				0px 39px #222,
+				0px 40px #222,
+				0px 41px #222,
+				0px 42px #222,
+				0px 43px #222,
+				0px 44px #222,
+				0px 45px #222,
+				0px 46px #222,
+				0px 47px #222,
+				0px 48px #222,
+				0px 49px #222,
+				0px 50px #222,
+				0px 51px #222,
+				0px 52px #222,
+				0px 53px #222,
+				0px 54px #222,
+				0px 55px #222,
+				0px 56px #222,
+				0px 57px #222,
+				0px 58px #222,
+				0px 59px #222,
+				0px 60px #222,
+				0px 61px #222,
+				0px 62px #222,
+				0px 63px #222,
+				0px 64px #222,
+				0px 65px #222,
+				0px 66px #222,
+				0px 67px #222,
+				0px 68px #222,
+				0px 69px #222,
+				0px 70px #222,
+				0px 71px #222,
+				0px 72px #222,
+				0px 73px #222,
+				0px 74px #222,
+				0px 75px #222,
+				0px 76px #222,
+				0px 77px #222,
+				0px 78px #222,
+				0px 79px #222,
+				0px 80px #222,
+				0px 81px #222,
+				0px 82px #222,
+				0px 83px #222,
+				0px 84px #222,
+				0px 85px #222,
+				0px 86px #222,
+				0px 87px #222,
+				0px 88px #222,
+				0px 89px #222,
+				0px 90px #222,
+				0px 91px #222,
+				0px 92px #222,
+				0px 93px #222,
+				0px 94px #222,
+				0px 95px #222,
+				0px 96px #222,
+				0px 97px #222,
+				0px 98px #222,
+				0px 99px #222,
+				0px 100px #222,
+				0px 101px #222,
+				0px 102px #222,
+				0px 103px #222,
+				0px 104px #222,
+				0px 105px #222,
+				0px 106px #222,
+				0px 107px #222,
+				0px 108px #222,
+				0px 109px #222,
+				0px 110px #222,
+				0px 111px #222,
+				0px 112px #222,
+				0px 113px #222,
+				0px 114px #222,
+				0px 115px #222,
+				0px 116px #222,
+				0px 117px #222,
+				0px 118px #222,
+				0px 119px #222;*/
+				/*0p2 2px #222,
+				0px 3px #222,
+				0px 4px #222,
+				0px 5px #222,
+				0px 6px #222,
+				0px 7px #222,
+				0px 8px #222,
+				0px 9px #222,
+				0px 10px #222,
+				0px 11px #222,
+				0px 12px #222,
+				0px 13px #222,
+				0px 14px #222,
+				0px 15px #222;*/
+				/*1px 16px #B0242A,
+				1px 17px #B0242A,
+				1px 18px #B0242A,
+				2px 18px #B0242A,
+				2px 19px #B0242A,
+				2px 20px #B0242A,
+				3px 20px #B0242A,
+				3px 20px #B0242A,
+				3px 22px #B0242A,
+				4px 22px #B0242A,*/
+			/*	0px 20px #999,
+				0px 21px #222,
+				0px 22px #222,
+				0px 23px #222,
+				0px 24px #222,
+				0px 25px #222;*/
+				font-weight: 500;
+}
+#header #title #subtitle {
+	font-size: 35px;
+	color:#fff;
+	text-align: center;
+	font-weight: 500;
+}
+#header #contact{
+	font-size: 20px;
+	float:left;
+	text-align: right;
+	font-weight: 500;
+	width:340px;
+	padding-left:40px; 
+}
+#header #contact li{
+	padding-top: 14px;
+}
+#header #contact li dd{
+	color:#fff;
+}
+#header #contact li dt{
+	color:#222;
+	float: left;
+}
+#header #contact dd,
+#header #contact dt{
+	display:block;
+}
+#splash{
+	background: url('portrait.jpg');
+	height: 565px;
+}
+#splash #blurb{
+	width:400px;
+	padding-top: 75px;
+	padding-left: 570px;
+	text-align: center;
+}
+#splash #blurb h1{
+	color:#EE1C25;
+	font-size: 50px;
+}
+#splash #blurb span{
+	font-size: 23px;			
+}
+#splash #blurb hr{
+	background-color: #222;
+	height: 1px;
+	width: 275px;
+	margin: 5px auto 20px auto;
+}
+#content .collumn{
+	float:left;
+}
+#content #leftcol{
+	width:326px;
+}
+#content #rightcol{
+	width: 652px;
+	margin-left: 2px;
+}
+#content h1{
+	color: #fff;
+	background-color: #222;
+	font-size: 25px;
+	height:30px;
+	font-weight: 500;
+	width:280px;
+	line-height: 28px;
+	padding-left: 40px;
+}
+#content #projects h1{
+	line-height: 24px;
+}
+#content .tab{
+	float:left;
+	clear:both;
+}
+#content ul{
+}
+#content #work h1{
+	background-color: #EE1C25;
+	width:278px;
+}
+#content #projects ul{
+			}
+#content #projects span{
+	color: #EE1C25;
+	font-size: 22px;
+}
+#content #projects .project{
+	margin-top: 25px;
+	margin-bottom: 24px;
+	margin-left: 40px;
+	line-height: 22px;
+}
+#content #projects .project h2{
+	font-size: 24px;
+	font-weight: 600;
+}
+#work .piece{
+	background-color: #222;
+	width: 151px;
+	height: 151px;
+	margin-top: 16px;
+	margin-left: 16px;
+	float:left;
+	clear:right;
+}
+#work .heel{
+	margin-left: 0;
+}
+#content #skills {
+	margin-top: 25px;
+}
+#content #skills ul{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+#content #skills li{
+	color:#EE1C25;
+	font-size: 24px;
+	margin-top: 5px;
+}
+#footer{
+	width:100%;
+	height:200px;
+	float:left;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
