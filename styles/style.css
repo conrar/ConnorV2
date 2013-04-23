@@ -6,6 +6,13 @@ a{text-decoration: none;
 .red{
 	color: #EE1C25;
 }
+.shadow{
+
+	text-shadow:0px 1px #222,
+				0px 2px #222,
+				0px 3px #222;
+}
+
 body{
 	color: #222;
 }
@@ -22,7 +29,7 @@ body{
 }
 #header{
 	height:150px;
-	overflow: hidden;
+	
 }
 #header #title{
 	float:left;
@@ -194,10 +201,11 @@ body{
 	text-align: right;
 	font-weight: 500;
 	width:340px;
-	padding-left:40px; 
+	padding-left:40px;
+	padding-top: 6px; 
 }
 #header #contact li{
-	padding-top: 14px;
+	padding-top: 5px;
 }
 #header #contact li dd{
 	color:#fff;
@@ -211,7 +219,7 @@ body{
 	display:block;
 }
 #splash{
-	background: url('portrait.jpg');
+	background: url('/portrait.jpg');
 	height: 565px;
 }
 #splash #blurb{
@@ -290,9 +298,15 @@ body{
 	margin-left: 16px;
 	float:left;
 	clear:right;
+	overflow: hidden;
 }
-#work .heel{
-	margin-left: 0;
+#work #portfolio{
+	margin-left: -16px;
+}
+
+#work .piece img{
+	height:100%;
+
 }
 #content #skills {
 	margin-top: 25px;
