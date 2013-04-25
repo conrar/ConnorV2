@@ -12,7 +12,7 @@
 
 
 	body{
-		background-color: #EE1C25;
+		background-color: #d24136;
 	}
 
 
@@ -58,34 +58,43 @@
 	}
 
 	.ptitle{
-		font-size: 36px;
+		font-size: 18pt;
 		background-color: #222;
 		color: #fff;
 		margin: 0 -10px;
-		padding-left: 10px;
+		padding: 14px 10px;
+		letter-spacing: .15em;
 	}
 
 	.pstitle{
-		font-size: 30px;
+		font-size: 16pt;
+		font-weight: 500;
 		color:#222;
+		padding: .5em 0;
 	}
 
 	.pdate{
 		font-size: 22px;
 		border-bottom: 2px solid #222;
+		font-weight: 500;
 
 	}
 
 	.pcontent{
-		min-height:100px;
-		font-size: 24px;
+		font-size: 14pt;
 		font-weight: 400;
 		color: #222;
-		padding: 0px 0 24px 0;
+		padding: 24px 0 24px 0;
 	}
+
+.pcontent :first-child{
+		text-indent: 0;
+}
+
 	.pcontent p{
-		margin-top: 24px;
+		text-indent: 1em;
 	}
+
 	.pcontent img{
 		margin: 24px 0 0 0;
 		width:100%;
@@ -98,13 +107,13 @@
 		float:left;
 		width: 600px;
 		padding: 0 20px;
-		margin-top: -7px;
+		margin-top: -6px;
 		margin-left: -5px;
 
 	}
 
 	.ptags{
-		margin-top: 24px;
+		
 		border-bottom: 	2px solid #222;
 		border-top: 	2px solid #222;
 		font-size: 22px;
@@ -115,20 +124,25 @@
 	.plinks{
 		font-size: 22px;
 		text-align: right;
-		color: #fff;
 	}
 
 	.ptags li{
 		padding-right: 10px;
+		color:#222;
+	}
+
+	.ptags :hover{
+		color:##B3191B;
 	}
 
 	.plinks li{
 		padding-left: 10px;
+		color:#B3191B;
 	}
 
 	.ptags li, .plinks li{
 		display: inline;
-		color:#EE1C25;
+		
 	}
 	
 
@@ -136,16 +150,14 @@
 	</style>
 </head>
 <body>
-<div id="red-stripe"></div>
 		<div id="container">
-			<div id="header">
-				
+			<div id="header">	
 				<div id="title">
 					<a href="http://connorschulte.com">
 						<div id="logo" class=".tk-futura-pt">CONNOR SCHULTE</div>
 					</a>
 					<a href="http://connorschulte.com/blog">
-						<div id="subtitle" class=".tk-futura-pt"><span>+</span>The Super Blog<span>(Under Construction)</span></div>
+						<div id="subtitle" class=".tk-futura-pt"><span>+</span>The Super Blog</div>
 					</a>
 				</div>
 			</div>
@@ -153,10 +165,10 @@
 				<div id="posts">
 					<div class="post">
 						<p class="ptitle">WELCOME TO THE SUPER BLOG</p>
-						<p class="pstitle">AND OTHER RELEVANT DESIGN TALK</p>
+						<p class="pstitle">And other relevant design talk</p>
 						<p class="pdate">4.17.13 - 6:00PM</p>
 						<div class="pcontent">
-							<p>Hey, this is Connor! Welcome to my superblog [currently under construction]. You can see I've kept a few elements of my "about me" page, particularly my colors, name, and white text subtitle. </p>
+							<p>Hey, this is Connor! Welcome to the blog. You can see I've kept a few elements of my "about me" page, particularly my colors, name, and white text subtitle. </p>
 							<p>After discussing rows and columns in class last week, I came to the conclusion that I wanted ALL of my important content to be in one column so as to keep the attention straight down the page.</p>
 						</div>
 						<ul class="ptags">
@@ -173,7 +185,7 @@
 					</div>
 					<div class="post">
 						<p class="ptitle">HERE IS AN IMAGE I MADE</p>
-						<p class="pstitle">IMAGES!?! TELL ME MORE</p>
+						<p class="pstitle">Images? Tell me more...</p>
 						<p class="pdate">4.17.13 - 6:00PM</p>
 						<div class="pcontent">
 							<img src="http://24.media.tumblr.com/ab694d2e49a3c87bee533c4a3aca2424/tumblr_mhq9a0ptAr1s5n63no1_500.jpg" alt="sruf">
